@@ -1,0 +1,113 @@
+{
+    "Erik-1-2018": [
+        {
+            "name": "Erik",
+            "age": 65,
+            "gender": "M",
+            "memid": "1",
+            "chartid": "11",
+            "dos": "2018",
+            "model": "CNA",
+            "dx": [
+                "E119",
+                "i420",
+                "f330",
+                "d330"
+            ]
+        },
+        {
+            "name": "Erik",
+            "age": 65,
+            "gender": "M",
+            "memid": "1",
+            "chartid": "12",
+            "dos": "2018",
+            "model": "CNA",
+            "dx": [
+                "E1151"
+            ]
+        }
+    ],
+    "Bob-2-2019": [
+        {
+            "n\r\name": "Bob",
+            "age": 42,
+            "gender": "M",
+            "memid": "2",
+            "chartid": "21",
+            "dos": "2019",
+            "model": "CPD",
+            "dx": [
+                "D330"
+            ]
+        },
+        {
+            "name": "Bob",
+            "age": 42,
+            "gender": "M",
+            "memid": "2",
+            "chartid": "21",
+            "dos": "2019",
+            "model": "CPD",
+            "dx": [
+                "F330"
+            ]
+        }
+    ],
+    "Bob-2-2018": [
+        {
+            "name": "Bob",
+            "age": 41,
+            "gender": "M",
+            "memid": "2\r\n",
+            "chartid": "23",
+            "dos": "2018",
+            "model": "CPD",
+            "dx": [
+                "E119"
+            ]
+        }
+    ],
+    "Tom-3-2018": [
+        {
+            "name": "Tom",
+            "age": 59,
+            "gender": "F",
+            "memid": "3",
+            "chartid": "2\r\n4",
+            "dos": "2018",
+            "model": "CFD",
+            "dx": [
+                "i420"
+            ]
+        }
+    ],
+    "Mark-4-2019": [
+        {
+            "name": "Mark",
+            "age": 74,
+            "gender": "M",
+            "memid": "4",
+            "chartid": "31",
+            "dos": "20\r\n19",
+            "model": "INS",
+            "dx": [
+                "E119"
+            ]
+        }
+    ],
+    "Jane-5-2019": [
+        {
+            "name": "Jane",
+            "age": "np.nan",
+            "gender": "F",
+            "memid": "5",
+            "chartid": "41",
+            "dos": "2019",
+            "m\r\nodel": "CFA",
+            "dx": [
+                "e119"
+            ]
+        }
+    ]
+}
