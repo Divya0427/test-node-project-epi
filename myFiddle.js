@@ -31,25 +31,29 @@
           return compositeKey.join(delimiter);
         }),
     });
-
+  console.log('result::');
+  console.log(result);
+  console.log('groupByCols::');
+  console.log(groupByCols);
   const groupedResult = _.groupByComposite(result, groupByCols);
   console.log('groupedResult::');
   console.log(groupedResult);
   var finalResult = Object.values(groupedResult);    
   var consolidatedOutput = [];
   var output = [];
-  
+  console.log("finalResult:::");
+  console.log(finalResult);
   var fResult = finalResult.map((array) => {
     var mergedObj = array.reduce((acc, obj) => {
       acc[obj] ? (acc[obj].dx = acc[obj].dx.concat(obj.dx)) : acc[obj] = obj;
       return acc;
-  }, {});
-  
-  for (let prop in mergedObj) {
-    output.push(mergedObj[prop]) 
-  }
+    }, {});
+    for (let prop in mergedObj) {
+      output.push(mergedObj[prop]) 
+    }
   });
   consolidatedOutput.push(output);
+  console.log("consolidatedOutput:::");
   console.log(consolidatedOutput);
 
   var myOp = consolidatedOutput.map((arr, idx) => {
@@ -59,5 +63,6 @@
       });
     });
   });
+  console.log("myOp:::");
   console.log(myOp);
 })();

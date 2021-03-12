@@ -10,7 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "browserify": "^16.5.2",
     "express": "^4.17.1",
+    "livereload": "^0.9.1",
+    "require": "^2.4.20",
     "underscore": "^1.10.2"
   },
   "devDependencies": {

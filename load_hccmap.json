@@ -1,0 +1,1857 @@
+{
+    "v22": {
+        "HCC1": {
+            "desc": "HIV/AIDS",
+            "children": [],
+            "parents": []
+        },
+        "HCC2": {
+            "desc": "Septicemia, Sepsis, Systemic Inflammatory Response Syndrome/Shock",
+            "children": [],
+            "parents": []
+        },
+        "HCC6": {
+            "desc": "Opportunistic Infections",
+            "children": [],
+            "parents": []
+        },
+        "HCC8": {
+            "desc": "Metastatic Cancer and Acute Leukemia",
+            "children": [
+                "HCC9",
+                "HCC10",
+                "HCC11",
+                "HCC12"
+            ],
+            "parents": []
+        },
+        "HCC9": {
+            "desc": "Lung and Other Severe Cancers",
+            "children": [
+                "HCC10",
+                "HCC11",
+                "HCC12"
+            ],
+            "parents": [
+                "HCC8"
+            ]
+        },
+        "HCC10": {
+            "desc": "Lymphoma and Other Cancers",
+            "children": [
+                "HCC11",
+                "HCC12"
+            ],
+            "parents": [
+                "HCC8",
+                "HCC9"
+            ]
+        },
+        "HCC11": {
+            "desc": "Colorectal, Bladder, and Other Cancers",
+            "children": [
+                "HCC12"
+            ],
+            "parents": [
+                "HCC8",
+                "HCC9",
+                "HCC10"
+            ]
+        },
+        "HCC12": {
+            "desc": "Breast, Prostate, and Other Cancers and Tumors",
+            "children": [],
+            "parents": [
+                "HCC8",
+                "HCC9",
+                "HCC10",
+                "HCC11"
+            ]
+        },
+        "HCC17": {
+            "desc": "Diabetes with Acute Complications",
+            "children": [
+                "HCC18",
+                "HCC19"
+            ],
+            "parents": []
+        },
+        "HCC18": {
+            "desc": "Diabetes with Chronic Complications",
+            "children": [
+                "HCC19"
+            ],
+            "parents": [
+                "HCC17"
+            ]
+        },
+        "HCC19": {
+            "desc": "Diabetes without Complication",
+            "children": [],
+            "parents": [
+                "HCC17",
+                "HCC18"
+            ]
+        },
+        "HCC21": {
+            "desc": "Protein-Calorie Malnutrition",
+            "children": [],
+            "parents": []
+        },
+        "HCC22": {
+            "desc": "Morbid Obesity",
+            "children": [],
+            "parents": []
+        },
+        "HCC23": {
+            "desc": "Other Significant Endocrine and Metabolic Disorders",
+            "children": [],
+            "parents": []
+        },
+        "HCC27": {
+            "desc": "End-Stage Liver Disease",
+            "children": [
+                "HCC28",
+                "HCC29",
+                "HCC80"
+            ],
+            "parents": []
+        },
+        "HCC28": {
+            "desc": "Cirrhosis of Liver",
+            "children": [
+                "HCC29"
+            ],
+            "parents": [
+                "HCC27"
+            ]
+        },
+        "HCC29": {
+            "desc": "Chronic Hepatitis",
+            "children": [],
+            "parents": [
+                "HCC27",
+                "HCC28"
+            ]
+        },
+        "HCC33": {
+            "desc": "Intestinal Obstruction/Perforation",
+            "children": [],
+            "parents": []
+        },
+        "HCC34": {
+            "desc": "Chronic Pancreatitis",
+            "children": [],
+            "parents": []
+        },
+        "HCC35": {
+            "desc": "Inflammatory Bowel Disease",
+            "children": [],
+            "parents": []
+        },
+        "HCC39": {
+            "desc": "Bone/Joint/Muscle Infections/Necrosis",
+            "children": [],
+            "parents": []
+        },
+        "HCC40": {
+            "desc": "Rheumatoid Arthritis and Inflammatory Connective Tissue Disease",
+            "children": [],
+            "parents": []
+        },
+        "HCC46": {
+            "desc": "Severe Hematological Disorders",
+            "children": [
+                "HCC48"
+            ],
+            "parents": []
+        },
+        "HCC47": {
+            "desc": "Disorders of Immunity",
+            "children": [],
+            "parents": []
+        },
+        "HCC48": {
+            "desc": "Coagulation Defects and Other Specified Hematological Disorders",
+            "children": [],
+            "parents": [
+                "HCC46"
+            ]
+        },
+        "HCC54": {
+            "desc": "Drug/Alcohol Psychosis",
+            "children": [
+                "HCC55"
+            ],
+            "parents": []
+        },
+        "HCC55": {
+            "desc": "Drug/Alcohol Dependence",
+            "children": [],
+            "parents": [
+                "HCC54"
+            ]
+        },
+        "HCC57": {
+            "desc": "Schizophrenia",
+            "children": [
+                "HCC58"
+            ],
+            "parents": []
+        },
+        "HCC58": {
+            "desc": "Major Depressive, Bipolar, and Paranoid Disorders",
+            "children": [],
+            "parents": [
+                "HCC57"
+            ]
+        },
+        "HCC70": {
+            "desc": "Quadriplegia",
+            "children": [
+                "HCC71",
+                "HCC72",
+                "HCC103",
+                "HCC104",
+                "HCC169"
+            ],
+            "parents": []
+        },
+        "HCC71": {
+            "desc": "Paraplegia",
+            "children": [
+                "HCC72",
+                "HCC104",
+                "HCC169"
+            ],
+            "parents": [
+                "HCC70"
+            ]
+        },
+        "HCC72": {
+            "desc": "Spinal Cord Disorders/Injuries",
+            "children": [
+                "HCC169"
+            ],
+            "parents": [
+                "HCC70",
+                "HCC71"
+            ]
+        },
+        "HCC73": {
+            "desc": "Amyotrophic Lateral Sclerosis and Other Motor Neuron Disease",
+            "children": [],
+            "parents": []
+        },
+        "HCC74": {
+            "desc": "Cerebral Palsy",
+            "children": [],
+            "parents": []
+        },
+        "HCC75": {
+            "desc": "Myasthenia Gravis/Myoneural Disorders,  Inflammatory and Toxic Neuropathy",
+            "children": [],
+            "parents": []
+        },
+        "HCC76": {
+            "desc": "Muscular Dystrophy",
+            "children": [],
+            "parents": []
+        },
+        "HCC77": {
+            "desc": "Multiple Sclerosis",
+            "children": [],
+            "parents": []
+        },
+        "HCC78": {
+            "desc": "Parkinson's and Huntington's Diseases",
+            "children": [],
+            "parents": []
+        },
+        "HCC79": {
+            "desc": "Seizure Disorders and Convulsions",
+            "children": [],
+            "parents": []
+        },
+        "HCC80": {
+            "desc": "Coma, Brain Compression/Anoxic Damage",
+            "children": [],
+            "parents": [
+                "HCC27",
+                "HCC166"
+            ]
+        },
+        "HCC82": {
+            "desc": "Respirator Dependence/Tracheostomy Status",
+            "children": [
+                "HCC83",
+                "HCC84"
+            ],
+            "parents": []
+        },
+        "HCC83": {
+            "desc": "Respiratory Arrest",
+            "children": [
+                "HCC84"
+            ],
+            "parents": [
+                "HCC82"
+            ]
+        },
+        "HCC84": {
+            "desc": "Cardio-Respiratory Failure and Shock",
+            "children": [],
+            "parents": [
+                "HCC82",
+                "HCC83"
+            ]
+        },
+        "HCC85": {
+            "desc": "Congestive Heart Failure",
+            "children": [],
+            "parents": []
+        },
+        "HCC86": {
+            "desc": "Acute Myocardial Infarction",
+            "children": [
+                "HCC87",
+                "HCC88"
+            ],
+            "parents": []
+        },
+        "HCC87": {
+            "desc": "Unstable Angina and Other Acute Ischemic Heart Disease",
+            "children": [
+                "HCC88"
+            ],
+            "parents": [
+                "HCC86"
+            ]
+        },
+        "HCC88": {
+            "desc": "Angina Pectoris",
+            "children": [],
+            "parents": [
+                "HCC86",
+                "HCC87"
+            ]
+        },
+        "HCC96": {
+            "desc": "Specified Heart Arrhythmias",
+            "children": [],
+            "parents": []
+        },
+        "HCC99": {
+            "desc": "Cerebral Hemorrhage",
+            "children": [
+                "HCC100"
+            ],
+            "parents": []
+        },
+        "HCC100": {
+            "desc": "Ischemic or Unspecified Stroke",
+            "children": [],
+            "parents": [
+                "HCC99"
+            ]
+        },
+        "HCC103": {
+            "desc": "Hemiplegia/Hemiparesis",
+            "children": [
+                "HCC104"
+            ],
+            "parents": [
+                "HCC70"
+            ]
+        },
+        "HCC104": {
+            "desc": "Monoplegia, Other Paralytic Syndromes",
+            "children": [],
+            "parents": [
+                "HCC70",
+                "HCC71",
+                "HCC103"
+            ]
+        },
+        "HCC106": {
+            "desc": "Atherosclerosis of the Extremities with Ulceration or Gangrene",
+            "children": [
+                "HCC107",
+                "HCC108",
+                "HCC161",
+                "HCC189"
+            ],
+            "parents": []
+        },
+        "HCC107": {
+            "desc": "Vascular Disease with Complications",
+            "children": [
+                "HCC108"
+            ],
+            "parents": [
+                "HCC106"
+            ]
+        },
+        "HCC108": {
+            "desc": "Vascular Disease",
+            "children": [],
+            "parents": [
+                "HCC106",
+                "HCC107"
+            ]
+        },
+        "HCC110": {
+            "desc": "Cystic Fibrosis",
+            "children": [
+                "HCC111",
+                "HCC112"
+            ],
+            "parents": []
+        },
+        "HCC111": {
+            "desc": "Chronic Obstructive Pulmonary Disease",
+            "children": [
+                "HCC112"
+            ],
+            "parents": [
+                "HCC110"
+            ]
+        },
+        "HCC112": {
+            "desc": "Fibrosis of Lung and Other Chronic Lung Disorders",
+            "children": [],
+            "parents": [
+                "HCC110",
+                "HCC111"
+            ]
+        },
+        "HCC114": {
+            "desc": "Aspiration and Specified Bacterial Pneumonias",
+            "children": [
+                "HCC115"
+            ],
+            "parents": []
+        },
+        "HCC115": {
+            "desc": "Pneumococcal Pneumonia, Empyema, Lung Abscess",
+            "children": [],
+            "parents": [
+                "HCC114"
+            ]
+        },
+        "HCC122": {
+            "desc": "Proliferative Diabetic Retinopathy and Vitreous Hemorrhage",
+            "children": [],
+            "parents": []
+        },
+        "HCC124": {
+            "desc": "Exudative Macular Degeneration",
+            "children": [],
+            "parents": []
+        },
+        "HCC134": {
+            "desc": "Dialysis Status",
+            "children": [
+                "HCC135",
+                "HCC136",
+                "HCC137"
+            ],
+            "parents": []
+        },
+        "HCC135": {
+            "desc": "Acute Renal Failure",
+            "children": [
+                "HCC136",
+                "HCC137"
+            ],
+            "parents": [
+                "HCC134"
+            ]
+        },
+        "HCC136": {
+            "desc": "Chronic Kidney Disease, Stage 5",
+            "children": [
+                "HCC137"
+            ],
+            "parents": [
+                "HCC134",
+                "HCC135"
+            ]
+        },
+        "HCC137": {
+            "desc": "Chronic Kidney Disease, Severe (Stage 4)",
+            "children": [],
+            "parents": [
+                "HCC134",
+                "HCC135",
+                "HCC136"
+            ]
+        },
+        "HCC157": {
+            "desc": "Pressure Ulcer of Skin with Necrosis Through to Muscle, Tendon, or Bone",
+            "children": [
+                "HCC158",
+                "HCC161"
+            ],
+            "parents": []
+        },
+        "HCC158": {
+            "desc": "Pressure Ulcer of Skin with Full Thickness Skin Loss",
+            "children": [
+                "HCC161"
+            ],
+            "parents": [
+                "HCC157"
+            ]
+        },
+        "HCC161": {
+            "desc": "Chronic Ulcer of Skin, Except Pressure",
+            "children": [],
+            "parents": [
+                "HCC106",
+                "HCC157",
+                "HCC158"
+            ]
+        },
+        "HCC162": {
+            "desc": "Severe Skin Burn or Condition",
+            "children": [],
+            "parents": []
+        },
+        "HCC166": {
+            "desc": "Severe Head Injury",
+            "children": [
+                "HCC80",
+                "HCC167"
+            ],
+            "parents": []
+        },
+        "HCC167": {
+            "desc": "Major Head Injury",
+            "children": [],
+            "parents": [
+                "HCC166"
+            ]
+        },
+        "HCC169": {
+            "desc": "Vertebral Fractures without Spinal Cord Injury",
+            "children": [],
+            "parents": [
+                "HCC70",
+                "HCC71",
+                "HCC72"
+            ]
+        },
+        "HCC170": {
+            "desc": "Hip Fracture/Dislocation",
+            "children": [],
+            "parents": []
+        },
+        "HCC173": {
+            "desc": "Traumatic Amputations and Complications",
+            "children": [],
+            "parents": []
+        },
+        "HCC176": {
+            "desc": "Complications of Specified Implanted Device or Graft",
+            "children": [],
+            "parents": []
+        },
+        "HCC186": {
+            "desc": "Major Organ Transplant or Replacement Status",
+            "children": [],
+            "parents": []
+        },
+        "HCC188": {
+            "desc": "Artificial Openings for Feeding or Elimination",
+            "children": [],
+            "parents": []
+        },
+        "HCC189": {
+            "desc": "Amputation Status, Lower Limb/Amputation Complications",
+            "children": [],
+            "parents": [
+                "HCC106"
+            ]
+        }
+    },
+    "v23": {
+        "HCC1": {
+            "desc": "HIV/AIDS",
+            "children": [],
+            "parents": []
+        },
+        "HCC2": {
+            "desc": "Septicemia, Sepsis, Systemic Inflammatory Response Syndrome/Shock",
+            "children": [],
+            "parents": []
+        },
+        "HCC6": {
+            "desc": "Opportunistic Infections",
+            "children": [],
+            "parents": []
+        },
+        "HCC8": {
+            "desc": "Metastatic Cancer and Acute Leukemia",
+            "children": [
+                "HCC9",
+                "HCC10",
+                "HCC11",
+                "HCC12"
+            ],
+            "parents": []
+        },
+        "HCC9": {
+            "desc": "Lung and Other Severe Cancers",
+            "children": [
+                "HCC10",
+                "HCC11",
+                "HCC12"
+            ],
+            "parents": [
+                "HCC8"
+            ]
+        },
+        "HCC10": {
+            "desc": "Lymphoma and Other Cancers",
+            "children": [
+                "HCC11",
+                "HCC12"
+            ],
+            "parents": [
+                "HCC8",
+                "HCC9"
+            ]
+        },
+        "HCC11": {
+            "desc": "Colorectal, Bladder, and Other Cancers",
+            "children": [
+                "HCC12"
+            ],
+            "parents": [
+                "HCC8",
+                "HCC9",
+                "HCC10"
+            ]
+        },
+        "HCC12": {
+            "desc": "Breast, Prostate, and Other Cancers and Tumors",
+            "children": [],
+            "parents": [
+                "HCC8",
+                "HCC9",
+                "HCC10",
+                "HCC11"
+            ]
+        },
+        "HCC17": {
+            "desc": "Diabetes with Acute Complications",
+            "children": [
+                "HCC18",
+                "HCC19"
+            ],
+            "parents": []
+        },
+        "HCC18": {
+            "desc": "Diabetes with Chronic Complications",
+            "children": [
+                "HCC19"
+            ],
+            "parents": [
+                "HCC17"
+            ]
+        },
+        "HCC19": {
+            "desc": "Diabetes without Complication",
+            "children": [],
+            "parents": [
+                "HCC17",
+                "HCC18"
+            ]
+        },
+        "HCC21": {
+            "desc": "Protein-Calorie Malnutrition",
+            "children": [],
+            "parents": []
+        },
+        "HCC22": {
+            "desc": "Morbid Obesity",
+            "children": [],
+            "parents": []
+        },
+        "HCC23": {
+            "desc": "Other Significant Endocrine and Metabolic Disorders",
+            "children": [],
+            "parents": []
+        },
+        "HCC27": {
+            "desc": "End-Stage Liver Disease",
+            "children": [
+                "HCC28",
+                "HCC29",
+                "HCC80"
+            ],
+            "parents": []
+        },
+        "HCC28": {
+            "desc": "Cirrhosis of Liver",
+            "children": [
+                "HCC29"
+            ],
+            "parents": [
+                "HCC27"
+            ]
+        },
+        "HCC29": {
+            "desc": "Chronic Hepatitis",
+            "children": [],
+            "parents": [
+                "HCC27",
+                "HCC28"
+            ]
+        },
+        "HCC33": {
+            "desc": "Intestinal Obstruction/Perforation",
+            "children": [],
+            "parents": []
+        },
+        "HCC34": {
+            "desc": "Chronic Pancreatitis",
+            "children": [],
+            "parents": []
+        },
+        "HCC35": {
+            "desc": "Inflammatory Bowel Disease",
+            "children": [],
+            "parents": []
+        },
+        "HCC39": {
+            "desc": "Bone/Joint/Muscle Infections/Necrosis",
+            "children": [],
+            "parents": []
+        },
+        "HCC40": {
+            "desc": "Rheumatoid Arthritis and Inflammatory Connective Tissue Disease",
+            "children": [],
+            "parents": []
+        },
+        "HCC46": {
+            "desc": "Severe Hematological Disorders",
+            "children": [
+                "HCC48"
+            ],
+            "parents": []
+        },
+        "HCC47": {
+            "desc": "Disorders of Immunity",
+            "children": [],
+            "parents": []
+        },
+        "HCC48": {
+            "desc": "Coagulation Defects and Other Specified Hematological Disorders",
+            "children": [],
+            "parents": [
+                "HCC46"
+            ]
+        },
+        "HCC54": {
+            "desc": "Substance Use with Psychotic Complications",
+            "children": [
+                "HCC55",
+                "HCC56"
+            ],
+            "parents": []
+        },
+        "HCC55": {
+            "desc": "Substance Use Disorder, Moderate/Severe, or Substance Use with Complications",
+            "children": [
+                "HCC56"
+            ],
+            "parents": [
+                "HCC54"
+            ]
+        },
+        "HCC56": {
+            "desc": "Substance Use Disorder, Mild, Except Alcohol and Cannabis",
+            "children": [],
+            "parents": [
+                "HCC54",
+                "HCC55"
+            ]
+        },
+        "HCC57": {
+            "desc": "Schizophrenia",
+            "children": [
+                "HCC58",
+                "HCC59",
+                "HCC60"
+            ],
+            "parents": []
+        },
+        "HCC58": {
+            "desc": "Reactive and Unspecified Psychosis",
+            "children": [
+                "HCC59",
+                "HCC60"
+            ],
+            "parents": [
+                "HCC57"
+            ]
+        },
+        "HCC59": {
+            "desc": "Major Depressive, Bipolar, and Paranoid Disorders",
+            "children": [
+                "HCC60"
+            ],
+            "parents": [
+                "HCC57",
+                "HCC58"
+            ]
+        },
+        "HCC60": {
+            "desc": "Personality Disorders",
+            "children": [],
+            "parents": [
+                "HCC57",
+                "HCC58",
+                "HCC59"
+            ]
+        },
+        "HCC70": {
+            "desc": "Quadriplegia",
+            "children": [
+                "HCC71",
+                "HCC72",
+                "HCC103",
+                "HCC104",
+                "HCC169"
+            ],
+            "parents": []
+        },
+        "HCC71": {
+            "desc": "Paraplegia",
+            "children": [
+                "HCC72",
+                "HCC104",
+                "HCC169"
+            ],
+            "parents": [
+                "HCC70"
+            ]
+        },
+        "HCC72": {
+            "desc": "Spinal Cord Disorders/Injuries",
+            "children": [
+                "HCC169"
+            ],
+            "parents": [
+                "HCC70",
+                "HCC71"
+            ]
+        },
+        "HCC73": {
+            "desc": "Amyotrophic Lateral Sclerosis and Other Motor Neuron Disease",
+            "children": [],
+            "parents": []
+        },
+        "HCC74": {
+            "desc": "Cerebral Palsy",
+            "children": [],
+            "parents": []
+        },
+        "HCC75": {
+            "desc": "Myasthenia Gravis/Myoneural Disorders and Guillain-Barre Syndrome/Inflammatory and Toxic Neuropathy",
+            "children": [],
+            "parents": []
+        },
+        "HCC76": {
+            "desc": "Muscular Dystrophy",
+            "children": [],
+            "parents": []
+        },
+        "HCC77": {
+            "desc": "Multiple Sclerosis",
+            "children": [],
+            "parents": []
+        },
+        "HCC78": {
+            "desc": "Parkinson's and Huntington's Diseases",
+            "children": [],
+            "parents": []
+        },
+        "HCC79": {
+            "desc": "Seizure Disorders and Convulsions",
+            "children": [],
+            "parents": []
+        },
+        "HCC80": {
+            "desc": "Coma, Brain Compression/Anoxic Damage",
+            "children": [],
+            "parents": [
+                "HCC27",
+                "HCC166"
+            ]
+        },
+        "HCC82": {
+            "desc": "Respirator Dependence/Tracheostomy Status",
+            "children": [
+                "HCC83",
+                "HCC84"
+            ],
+            "parents": []
+        },
+        "HCC83": {
+            "desc": "Respiratory Arrest",
+            "children": [
+                "HCC84"
+            ],
+            "parents": [
+                "HCC82"
+            ]
+        },
+        "HCC84": {
+            "desc": "Cardio-Respiratory Failure and Shock",
+            "children": [],
+            "parents": [
+                "HCC82",
+                "HCC83"
+            ]
+        },
+        "HCC85": {
+            "desc": "Congestive Heart Failure",
+            "children": [],
+            "parents": []
+        },
+        "HCC86": {
+            "desc": "Acute Myocardial Infarction",
+            "children": [
+                "HCC87",
+                "HCC88"
+            ],
+            "parents": []
+        },
+        "HCC87": {
+            "desc": "Unstable Angina and Other Acute Ischemic Heart Disease",
+            "children": [
+                "HCC88"
+            ],
+            "parents": [
+                "HCC86"
+            ]
+        },
+        "HCC88": {
+            "desc": "Angina Pectoris",
+            "children": [],
+            "parents": [
+                "HCC86",
+                "HCC87"
+            ]
+        },
+        "HCC96": {
+            "desc": "Specified Heart Arrhythmias",
+            "children": [],
+            "parents": []
+        },
+        "HCC99": {
+            "desc": "Intracranial Hemorrhage",
+            "children": [
+                "HCC100"
+            ],
+            "parents": []
+        },
+        "HCC100": {
+            "desc": "Ischemic or Unspecified Stroke",
+            "children": [],
+            "parents": [
+                "HCC99"
+            ]
+        },
+        "HCC103": {
+            "desc": "Hemiplegia/Hemiparesis",
+            "children": [
+                "HCC104"
+            ],
+            "parents": [
+                "HCC70"
+            ]
+        },
+        "HCC104": {
+            "desc": "Monoplegia, Other Paralytic Syndromes",
+            "children": [],
+            "parents": [
+                "HCC70",
+                "HCC71",
+                "HCC103"
+            ]
+        },
+        "HCC106": {
+            "desc": "Atherosclerosis of the Extremities with Ulceration or Gangrene",
+            "children": [
+                "HCC107",
+                "HCC108",
+                "HCC161",
+                "HCC189"
+            ],
+            "parents": []
+        },
+        "HCC107": {
+            "desc": "Vascular Disease with Complications",
+            "children": [
+                "HCC108"
+            ],
+            "parents": [
+                "HCC106"
+            ]
+        },
+        "HCC108": {
+            "desc": "Vascular Disease",
+            "children": [],
+            "parents": [
+                "HCC106",
+                "HCC107"
+            ]
+        },
+        "HCC110": {
+            "desc": "Cystic Fibrosis",
+            "children": [
+                "HCC111",
+                "HCC112"
+            ],
+            "parents": []
+        },
+        "HCC111": {
+            "desc": "Chronic Obstructive Pulmonary Disease",
+            "children": [
+                "HCC112"
+            ],
+            "parents": [
+                "HCC110"
+            ]
+        },
+        "HCC112": {
+            "desc": "Fibrosis of Lung and Other Chronic Lung Disorders",
+            "children": [],
+            "parents": [
+                "HCC110",
+                "HCC111"
+            ]
+        },
+        "HCC114": {
+            "desc": "Aspiration and Specified Bacterial Pneumonias",
+            "children": [
+                "HCC115"
+            ],
+            "parents": []
+        },
+        "HCC115": {
+            "desc": "Pneumococcal Pneumonia, Empyema, Lung Abscess",
+            "children": [],
+            "parents": [
+                "HCC114"
+            ]
+        },
+        "HCC122": {
+            "desc": "Proliferative Diabetic Retinopathy and Vitreous Hemorrhage",
+            "children": [],
+            "parents": []
+        },
+        "HCC124": {
+            "desc": "Exudative Macular Degeneration",
+            "children": [],
+            "parents": []
+        },
+        "HCC134": {
+            "desc": "Dialysis Status",
+            "children": [
+                "HCC135",
+                "HCC136",
+                "HCC137",
+                "HCC138"
+            ],
+            "parents": []
+        },
+        "HCC135": {
+            "desc": "Acute Renal Failure",
+            "children": [
+                "HCC136",
+                "HCC137",
+                "HCC138"
+            ],
+            "parents": [
+                "HCC134"
+            ]
+        },
+        "HCC136": {
+            "desc": "Chronic Kidney Disease, Stage 5",
+            "children": [
+                "HCC137",
+                "HCC138"
+            ],
+            "parents": [
+                "HCC134",
+                "HCC135"
+            ]
+        },
+        "HCC137": {
+            "desc": "Chronic Kidney Disease, Severe (Stage 4)",
+            "children": [
+                "HCC138"
+            ],
+            "parents": [
+                "HCC134",
+                "HCC135",
+                "HCC136"
+            ]
+        },
+        "HCC138": {
+            "desc": "Chronic Kidney Disease, Moderate (Stage 3)",
+            "children": [],
+            "parents": [
+                "HCC134",
+                "HCC135",
+                "HCC136",
+                "HCC137"
+            ]
+        },
+        "HCC157": {
+            "desc": "Pressure Ulcer of Skin with Necrosis Through to Muscle, Tendon, or Bone",
+            "children": [
+                "HCC158",
+                "HCC161"
+            ],
+            "parents": []
+        },
+        "HCC158": {
+            "desc": "Pressure Ulcer of Skin with Full Thickness Skin Loss",
+            "children": [
+                "HCC161"
+            ],
+            "parents": [
+                "HCC157"
+            ]
+        },
+        "HCC161": {
+            "desc": "Chronic Ulcer of Skin, Except Pressure",
+            "children": [],
+            "parents": [
+                "HCC106",
+                "HCC157",
+                "HCC158"
+            ]
+        },
+        "HCC162": {
+            "desc": "Severe Skin Burn or Condition",
+            "children": [],
+            "parents": []
+        },
+        "HCC166": {
+            "desc": "Severe Head Injury",
+            "children": [
+                "HCC80",
+                "HCC167"
+            ],
+            "parents": []
+        },
+        "HCC167": {
+            "desc": "Major Head Injury",
+            "children": [],
+            "parents": [
+                "HCC166"
+            ]
+        },
+        "HCC169": {
+            "desc": "Vertebral Fractures without Spinal Cord Injury",
+            "children": [],
+            "parents": [
+                "HCC70",
+                "HCC71",
+                "HCC72"
+            ]
+        },
+        "HCC170": {
+            "desc": "Hip Fracture/Dislocation",
+            "children": [],
+            "parents": []
+        },
+        "HCC173": {
+            "desc": "Traumatic Amputations and Complications",
+            "children": [],
+            "parents": []
+        },
+        "HCC176": {
+            "desc": "Complications of Specified Implanted Device or Graft",
+            "children": [],
+            "parents": []
+        },
+        "HCC186": {
+            "desc": "Major Organ Transplant or Replacement Status",
+            "children": [],
+            "parents": []
+        },
+        "HCC188": {
+            "desc": "Artificial Openings for Feeding or Elimination",
+            "children": [],
+            "parents": []
+        },
+        "HCC189": {
+            "desc": "Amputation Status, Lower Limb/Amputation Complications",
+            "children": [],
+            "parents": [
+                "HCC106"
+            ]
+        }
+    },
+    "v24": {
+        "HCC1": {
+            "desc": "HIV/AIDS",
+            "children": [],
+            "parents": []
+        },
+        "HCC2": {
+            "desc": "Septicemia, Sepsis, Systemic Inflammatory Response Syndrome/Shock",
+            "children": [],
+            "parents": []
+        },
+        "HCC6": {
+            "desc": "Opportunistic Infections",
+            "children": [],
+            "parents": []
+        },
+        "HCC8": {
+            "desc": "Metastatic Cancer and Acute Leukemia",
+            "children": [
+                "HCC9",
+                "HCC10",
+                "HCC11",
+                "HCC12"
+            ],
+            "parents": []
+        },
+        "HCC9": {
+            "desc": "Lung and Other Severe Cancers",
+            "children": [
+                "HCC10",
+                "HCC11",
+                "HCC12"
+            ],
+            "parents": [
+                "HCC8"
+            ]
+        },
+        "HCC10": {
+            "desc": "Lymphoma and Other Cancers",
+            "children": [
+                "HCC11",
+                "HCC12"
+            ],
+            "parents": [
+                "HCC8",
+                "HCC9"
+            ]
+        },
+        "HCC11": {
+            "desc": "Colorectal, Bladder, and Other Cancers",
+            "children": [
+                "HCC12"
+            ],
+            "parents": [
+                "HCC8",
+                "HCC9",
+                "HCC10"
+            ]
+        },
+        "HCC12": {
+            "desc": "Breast, Prostate, and Other Cancers and Tumors",
+            "children": [],
+            "parents": [
+                "HCC8",
+                "HCC9",
+                "HCC10",
+                "HCC11"
+            ]
+        },
+        "HCC17": {
+            "desc": "Diabetes with Acute Complications",
+            "children": [
+                "HCC18",
+                "HCC19"
+            ],
+            "parents": []
+        },
+        "HCC18": {
+            "desc": "Diabetes with Chronic Complications",
+            "children": [
+                "HCC19"
+            ],
+            "parents": [
+                "HCC17"
+            ]
+        },
+        "HCC19": {
+            "desc": "Diabetes without Complication",
+            "children": [],
+            "parents": [
+                "HCC17",
+                "HCC18"
+            ]
+        },
+        "HCC21": {
+            "desc": "Protein-Calorie Malnutrition",
+            "children": [],
+            "parents": []
+        },
+        "HCC22": {
+            "desc": "Morbid Obesity",
+            "children": [],
+            "parents": []
+        },
+        "HCC23": {
+            "desc": "Other Significant Endocrine and Metabolic Disorders",
+            "children": [],
+            "parents": []
+        },
+        "HCC27": {
+            "desc": "End-Stage Liver Disease",
+            "children": [
+                "HCC28",
+                "HCC29",
+                "HCC80"
+            ],
+            "parents": []
+        },
+        "HCC28": {
+            "desc": "Cirrhosis of Liver",
+            "children": [
+                "HCC29"
+            ],
+            "parents": [
+                "HCC27"
+            ]
+        },
+        "HCC29": {
+            "desc": "Chronic Hepatitis",
+            "children": [],
+            "parents": [
+                "HCC27",
+                "HCC28"
+            ]
+        },
+        "HCC33": {
+            "desc": "Intestinal Obstruction/Perforation",
+            "children": [],
+            "parents": []
+        },
+        "HCC34": {
+            "desc": "Chronic Pancreatitis",
+            "children": [],
+            "parents": []
+        },
+        "HCC35": {
+            "desc": "Inflammatory Bowel Disease",
+            "children": [],
+            "parents": []
+        },
+        "HCC39": {
+            "desc": "Bone/Joint/Muscle Infections/Necrosis",
+            "children": [],
+            "parents": []
+        },
+        "HCC40": {
+            "desc": "Rheumatoid Arthritis and Inflammatory Connective Tissue Disease",
+            "children": [],
+            "parents": []
+        },
+        "HCC46": {
+            "desc": "Severe Hematological Disorders",
+            "children": [
+                "HCC48"
+            ],
+            "parents": []
+        },
+        "HCC47": {
+            "desc": "Disorders of Immunity",
+            "children": [],
+            "parents": []
+        },
+        "HCC48": {
+            "desc": "Coagulation Defects and Other Specified Hematological Disorders",
+            "children": [],
+            "parents": [
+                "HCC46"
+            ]
+        },
+        "HCC51": {
+            "desc": "Dementia With Complications",
+            "children": [
+                "HCC52"
+            ],
+            "parents": []
+        },
+        "HCC52": {
+            "desc": "Dementia Without Complication",
+            "children": [],
+            "parents": [
+                "HCC51"
+            ]
+        },
+        "HCC54": {
+            "desc": "Substance Use with Psychotic Complications",
+            "children": [
+                "HCC55",
+                "HCC56"
+            ],
+            "parents": []
+        },
+        "HCC55": {
+            "desc": "Substance Use Disorder, Moderate/Severe, or Substance Use with Complications",
+            "children": [
+                "HCC56"
+            ],
+            "parents": [
+                "HCC54"
+            ]
+        },
+        "HCC56": {
+            "desc": "Substance Use Disorder, Mild, Except Alcohol and Cannabis",
+            "children": [],
+            "parents": [
+                "HCC54",
+                "HCC55"
+            ]
+        },
+        "HCC57": {
+            "desc": "Schizophrenia",
+            "children": [
+                "HCC58",
+                "HCC59",
+                "HCC60"
+            ],
+            "parents": []
+        },
+        "HCC58": {
+            "desc": "Reactive and Unspecified Psychosis",
+            "children": [
+                "HCC59",
+                "HCC60"
+            ],
+            "parents": [
+                "HCC57"
+            ]
+        },
+        "HCC59": {
+            "desc": "Major Depressive, Bipolar, and Paranoid Disorders",
+            "children": [
+                "HCC60"
+            ],
+            "parents": [
+                "HCC57",
+                "HCC58"
+            ]
+        },
+        "HCC60": {
+            "desc": "Personality Disorders",
+            "children": [],
+            "parents": [
+                "HCC57",
+                "HCC58",
+                "HCC59"
+            ]
+        },
+        "HCC70": {
+            "desc": "Quadriplegia",
+            "children": [
+                "HCC71",
+                "HCC72",
+                "HCC103",
+                "HCC104",
+                "HCC169"
+            ],
+            "parents": []
+        },
+        "HCC71": {
+            "desc": "Paraplegia",
+            "children": [
+                "HCC72",
+                "HCC104",
+                "HCC169"
+            ],
+            "parents": [
+                "HCC70"
+            ]
+        },
+        "HCC72": {
+            "desc": "Spinal Cord Disorders/Injuries",
+            "children": [
+                "HCC169"
+            ],
+            "parents": [
+                "HCC70",
+                "HCC71"
+            ]
+        },
+        "HCC73": {
+            "desc": "Amyotrophic Lateral Sclerosis and Other Motor Neuron Disease",
+            "children": [],
+            "parents": []
+        },
+        "HCC74": {
+            "desc": "Cerebral Palsy",
+            "children": [],
+            "parents": []
+        },
+        "HCC75": {
+            "desc": "Myasthenia Gravis/Myoneural Disorders and Guillain-Barre Syndrome/Inflammatory and Toxic Neuropathy",
+            "children": [],
+            "parents": []
+        },
+        "HCC76": {
+            "desc": "Muscular Dystrophy",
+            "children": [],
+            "parents": []
+        },
+        "HCC77": {
+            "desc": "Multiple Sclerosis",
+            "children": [],
+            "parents": []
+        },
+        "HCC78": {
+            "desc": "Parkinson's and Huntington's Diseases",
+            "children": [],
+            "parents": []
+        },
+        "HCC79": {
+            "desc": "Seizure Disorders and Convulsions",
+            "children": [],
+            "parents": []
+        },
+        "HCC80": {
+            "desc": "Coma, Brain Compression/Anoxic Damage",
+            "children": [],
+            "parents": [
+                "HCC27",
+                "HCC166"
+            ]
+        },
+        "HCC82": {
+            "desc": "Respirator Dependence/Tracheostomy Status",
+            "children": [
+                "HCC83",
+                "HCC84"
+            ],
+            "parents": []
+        },
+        "HCC83": {
+            "desc": "Respiratory Arrest",
+            "children": [
+                "HCC84"
+            ],
+            "parents": [
+                "HCC82"
+            ]
+        },
+        "HCC84": {
+            "desc": "Cardio-Respiratory Failure and Shock",
+            "children": [],
+            "parents": [
+                "HCC82",
+                "HCC83"
+            ]
+        },
+        "HCC85": {
+            "desc": "Congestive Heart Failure",
+            "children": [],
+            "parents": []
+        },
+        "HCC86": {
+            "desc": "Acute Myocardial Infarction",
+            "children": [
+                "HCC87",
+                "HCC88"
+            ],
+            "parents": []
+        },
+        "HCC87": {
+            "desc": "Unstable Angina and Other Acute Ischemic Heart Disease",
+            "children": [
+                "HCC88"
+            ],
+            "parents": [
+                "HCC86"
+            ]
+        },
+        "HCC88": {
+            "desc": "Angina Pectoris",
+            "children": [],
+            "parents": [
+                "HCC86",
+                "HCC87"
+            ]
+        },
+        "HCC96": {
+            "desc": "Specified Heart Arrhythmias",
+            "children": [],
+            "parents": []
+        },
+        "HCC99": {
+            "desc": "Intracranial Hemorrhage",
+            "children": [
+                "HCC100"
+            ],
+            "parents": []
+        },
+        "HCC100": {
+            "desc": "Ischemic or Unspecified Stroke",
+            "children": [],
+            "parents": [
+                "HCC99"
+            ]
+        },
+        "HCC103": {
+            "desc": "Hemiplegia/Hemiparesis",
+            "children": [
+                "HCC104"
+            ],
+            "parents": [
+                "HCC70"
+            ]
+        },
+        "HCC104": {
+            "desc": "Monoplegia, Other Paralytic Syndromes",
+            "children": [],
+            "parents": [
+                "HCC70",
+                "HCC71",
+                "HCC103"
+            ]
+        },
+        "HCC106": {
+            "desc": "Atherosclerosis of the Extremities with Ulceration or Gangrene",
+            "children": [
+                "HCC107",
+                "HCC108",
+                "HCC161",
+                "HCC189"
+            ],
+            "parents": []
+        },
+        "HCC107": {
+            "desc": "Vascular Disease with Complications",
+            "children": [
+                "HCC108"
+            ],
+            "parents": [
+                "HCC106"
+            ]
+        },
+        "HCC108": {
+            "desc": "Vascular Disease",
+            "children": [],
+            "parents": [
+                "HCC106",
+                "HCC107"
+            ]
+        },
+        "HCC110": {
+            "desc": "Cystic Fibrosis",
+            "children": [
+                "HCC111",
+                "HCC112"
+            ],
+            "parents": []
+        },
+        "HCC111": {
+            "desc": "Chronic Obstructive Pulmonary Disease",
+            "children": [
+                "HCC112"
+            ],
+            "parents": [
+                "HCC110"
+            ]
+        },
+        "HCC112": {
+            "desc": "Fibrosis of Lung and Other Chronic Lung Disorders",
+            "children": [],
+            "parents": [
+                "HCC110",
+                "HCC111"
+            ]
+        },
+        "HCC114": {
+            "desc": "Aspiration and Specified Bacterial Pneumonias",
+            "children": [
+                "HCC115"
+            ],
+            "parents": []
+        },
+        "HCC115": {
+            "desc": "Pneumococcal Pneumonia, Empyema, Lung Abscess",
+            "children": [],
+            "parents": [
+                "HCC114"
+            ]
+        },
+        "HCC122": {
+            "desc": "Proliferative Diabetic Retinopathy and Vitreous Hemorrhage",
+            "children": [],
+            "parents": []
+        },
+        "HCC124": {
+            "desc": "Exudative Macular Degeneration",
+            "children": [],
+            "parents": []
+        },
+        "HCC134": {
+            "desc": "Dialysis Status",
+            "children": [
+                "HCC135",
+                "HCC136",
+                "HCC137",
+                "HCC138"
+            ],
+            "parents": []
+        },
+        "HCC135": {
+            "desc": "Acute Renal Failure",
+            "children": [
+                "HCC136",
+                "HCC137",
+                "HCC138"
+            ],
+            "parents": [
+                "HCC134"
+            ]
+        },
+        "HCC136": {
+            "desc": "Chronic Kidney Disease, Stage 5",
+            "children": [
+                "HCC137",
+                "HCC138"
+            ],
+            "parents": [
+                "HCC134",
+                "HCC135"
+            ]
+        },
+        "HCC137": {
+            "desc": "Chronic Kidney Disease, Severe (Stage 4)",
+            "children": [
+                "HCC138"
+            ],
+            "parents": [
+                "HCC134",
+                "HCC135",
+                "HCC136"
+            ]
+        },
+        "HCC138": {
+            "desc": "Chronic Kidney Disease, Moderate (Stage 3)",
+            "children": [],
+            "parents": [
+                "HCC134",
+                "HCC135",
+                "HCC136",
+                "HCC137"
+            ]
+        },
+        "HCC157": {
+            "desc": "Pressure Ulcer of Skin with Necrosis Through to Muscle, Tendon, or Bone",
+            "children": [
+                "HCC158",
+                "HCC159",
+                "HCC161"
+            ],
+            "parents": []
+        },
+        "HCC158": {
+            "desc": "Pressure Ulcer of Skin with Full Thickness Skin Loss",
+            "children": [
+                "HCC159",
+                "HCC161"
+            ],
+            "parents": [
+                "HCC157"
+            ]
+        },
+        "HCC159": {
+            "desc": "Pressure Ulcer of Skin with Partial Thickness Skin Loss",
+            "children": [
+                "HCC161"
+            ],
+            "parents": [
+                "HCC157",
+                "HCC158"
+            ]
+        },
+        "HCC161": {
+            "desc": "Chronic Ulcer of Skin, Except Pressure",
+            "children": [],
+            "parents": [
+                "HCC106",
+                "HCC157",
+                "HCC158",
+                "HCC159"
+            ]
+        },
+        "HCC162": {
+            "desc": "Severe Skin Burn or Condition",
+            "children": [],
+            "parents": []
+        },
+        "HCC166": {
+            "desc": "Severe Head Injury",
+            "children": [
+                "HCC80",
+                "HCC167"
+            ],
+            "parents": []
+        },
+        "HCC167": {
+            "desc": "Major Head Injury",
+            "children": [],
+            "parents": [
+                "HCC166"
+            ]
+        },
+        "HCC169": {
+            "desc": "Vertebral Fractures without Spinal Cord Injury",
+            "children": [],
+            "parents": [
+                "HCC70",
+                "HCC71",
+                "HCC72"
+            ]
+        },
+        "HCC170": {
+            "desc": "Hip Fracture/Dislocation",
+            "children": [],
+            "parents": []
+        },
+        "HCC173": {
+            "desc": "Traumatic Amputations and Complications",
+            "children": [],
+            "parents": []
+        },
+        "HCC176": {
+            "desc": "Complications of Specified Implanted Device or Graft",
+            "children": [],
+            "parents": []
+        },
+        "HCC186": {
+            "desc": "Major Organ Transplant or Replacement Status",
+            "children": [],
+            "parents": []
+        },
+        "HCC188": {
+            "desc": "Artificial Openings for Feeding or Elimination",
+            "children": [],
+            "parents": []
+        },
+        "HCC189": {
+            "desc": "Amputation Status, Lower Limb/Amputation Complications",
+            "children": [],
+            "parents": [
+                "HCC106"
+            ]
+        }
+    }
+}
